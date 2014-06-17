@@ -140,6 +140,10 @@ grunt.initConfig({
 
 ## Changelog
 
+## 0.0.2
+
+Set correct dependency of ahws-dr-svg-sprites
+
 ## 0.0.1
 
 FORKED - because of added config option cssUrl
