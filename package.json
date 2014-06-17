@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "async": "^0.8.0",
-    "ahws-dr-svg-sprites": "^0.9.4",
+    "ahws-dr-svg-sprites": "^0.0.1",
     "grunt": "^0.4.4",
     "grunt-contrib-jshint": "^0.7.2",
     "grunt-contrib-nodeunit": "^0.2.2"
