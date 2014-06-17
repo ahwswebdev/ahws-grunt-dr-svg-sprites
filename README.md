@@ -140,6 +140,10 @@ grunt.initConfig({
 
 ## Changelog
 
+## 0.0.3
+
+Set correct grunt task (ahws-dr-svg-sprites) in index.js
+
 ## 0.0.2
 
 Set correct dependency of ahws-dr-svg-sprites
