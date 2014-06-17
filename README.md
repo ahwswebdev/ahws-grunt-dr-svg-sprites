@@ -8,13 +8,13 @@ This plugin requires Grunt `~0.4.1`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-dr-svg-sprites --save-dev
+npm install ahws-grunt-dr-svg-sprites --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-dr-svg-sprites');
+grunt.loadNpmTasks('ahws-grunt-dr-svg-sprites');
 ```
 
 ## The "svg-sprites" task
@@ -34,7 +34,7 @@ grunt.initConfig({
 
 ### Options
 
-The options are inherited from [dr-svg-sprites](https://github.com/drdk/dr-svg-sprites#options) with the following differences:
+The options are inherited from [dr-svg-sprites](https://github.com/ahwswebdev/ahws-dr-svg-sprites#options) with the following differences:
 
 ##### options.name
 
@@ -122,6 +122,7 @@ grunt.initConfig({
 		},
 		radio: {
 			options: {
+				cssUrl: '/img',
 				sizes: {
 					small: 16
 				},
@@ -139,11 +140,15 @@ grunt.initConfig({
 
 ## Changelog
 
+## 0.0.1
+
+FORKED - because of added config option cssUrl
+
 ### 0.9.0
 
 Changes:
 
-* Moved all documentation not directly related to the grunt wrapper to [dr-svg-sprites](https://github.com/drdk/dr-svg-sprites). All future issues regarding anything other than the grunt wrapper should be posted there :)
+* Moved all documentation not directly related to the grunt wrapper to [dr-svg-sprites](https://github.com/ahwswebdev/ahws-dr-svg-sprites). All future issues regarding anything other than the grunt wrapper should be posted there :)
 
 ### 0.5.5
 
@@ -177,7 +182,4 @@ Bug fixes:
 Features:
 
 * `options.prefix` will now affect classnames also.
-* `options.refSize` is now no longer limited to sizes defined in `options.sizes`; it can take a raw number.  
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-8318361-2/drdk/grunt-dr-svg-sprites)](https://github.com/igrigorik/ga-beacon)
+* `options.refSize` is now no longer limited to sizes defined in `options.sizes`; it can take a raw number.
