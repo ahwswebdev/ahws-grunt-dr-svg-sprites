@@ -1,7 +1,7 @@
 {
   "name": "ahws-grunt-dr-svg-sprites",
   "description": "Grunt plugin to create SVG sprites with PNG fallbacks at needed sizes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "",
   "author": {
     "name": "ahwswebdev",
@@ -25,18 +25,12 @@
     "node": ">= 0.8.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.7.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-nodeunit": "~0.2.2",
-    "async": "*"
+    "grunt": "^0.4.4",
+    "grunt-contrib-clean": "~0.5.0"
   },
   "dependencies": {
     "async": "^0.8.0",
-    "ahws-dr-svg-sprites": "^0.0.1",
-    "grunt": "^0.4.4",
-    "grunt-contrib-jshint": "^0.7.2",
-    "grunt-contrib-nodeunit": "^0.2.2"
+    "ahws-dr-svg-sprites": "^0.0.2"
   },
   "keywords": [
     "gruntplugin",

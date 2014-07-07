@@ -1,6 +1,6 @@
 /*
  * dr-grunt-svg-sprites
- *
+ * 
  *
  * Copyright (c) 2014 drdk
  * Licensed under the MIT license.
@@ -10,7 +10,7 @@
 
 module.exports = function(grunt) {
 
-	var builder = require("ahws-dr-svg-sprites");
+	var builder = require("dr-svg-sprites");
 
 	grunt.registerMultiTask("svg-sprites", "Build SVG sprites with PNG fallbacks", function() {
 
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 			console.log("Done.");
 			done();
 		});
-
+	
 	});
 
 };
